@@ -29,8 +29,12 @@ fetch("./db.json")
           $("#money").text(db[i].money);
         }
       }
-
     });
+
+    $("#close").click(() => {
+      $("#userCard").css("display", "none");
+      $(".page").css("filter", "blur(0)");
+    })
 
     $("#apply").click(() => {
       let minAge = $("#minAge").val();
