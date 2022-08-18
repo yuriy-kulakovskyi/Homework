@@ -1,0 +1,80 @@
+[{
+  "name": "Victor",
+  "code": 1601416,
+  "age": 14,
+  "length": 160,
+  "weight": 42,
+  "money": 252
+},
+{
+  "name": "Taras",
+  "code": 1423243,
+  "age": 19,
+  "length": 180,
+  "weight": 50,
+  "money": 1000
+},
+{
+  "name": "Alex",
+  "code": 4533333,
+  "age": 10,
+  "length": 110,
+  "weight": 45,
+  "money": 10
+},
+{
+  "name": "Nastya",
+  "code": 89878789,
+  "age": 20,
+  "length": 160,
+  "weight": 60,
+  "money": 776
+},
+{
+  "name": "Oleg",
+  "code": 66787998,
+  "age": 30,
+  "length": 180,
+  "weight": 90,
+  "money": 12323
+},
+{
+  "name": "Valera",
+  "code": 76787876,
+  "age": 17,
+  "length": 190,
+  "weight": 110,
+  "money": 12
+},
+{
+  "name": "John",
+  "code": 34343422,
+  "age": 9,
+  "length": 90,
+  "weight": 30,
+  "money": 776
+},
+{
+  "name": "Yura",
+  "code": 7888765,
+  "age": 14,
+  "length": 150,
+  "weight": 56,
+  "money": 8998
+},
+{
+  "name": "Andrii",
+  "code": 8898788,
+  "age": 18,
+  "length": 170,
+  "weight": 77,
+  "money": 677
+},
+{
+  "name": "Yulia",
+  "code": 1215456,
+  "age": 7,
+  "length": 80,
+  "weight": 34,
+  "money": 0
+}]

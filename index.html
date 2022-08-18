@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js' integrity='sha512-n/4gHW3atM3QqRcbCn6ewmpxcLAHGaDjpEBu4xZd47N0W2oQ+6q7oc3PXstrJYXcbNU1OHdQ1T7pAP+gi5Yu8g==' crossorigin='anonymous'></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="card.css">
+</head>
+<body>
+  <div class="wrap">
+
+    <div class="userCard" id="userCard">
+      <div class="card__header"></div>
+
+      <div class="header__img-wrapper">
+        <div class="header__img" id="avatar"></div>
+      </div>
+
+      <div class="card__main">
+        <div class="nameField field" id="name"></div>
+        <div class="codeField field">Code: <span id="code"></span></div>
+        <div class="ageField field">Age: <span id="age"></span></div>
+        <div class="lengthField field">Length: <span id="length"></span> sm</div>
+        <div class="weightField field">Weight: <span id="weight"></span> kg</div>
+        <div class="moneyField field">Balance: <span id="money"></span> $</div>
+      </div>
+    </div>
+
+    <div class="page">
+      <header class="wrap__header">
+        <div class="wrap__age-check container">
+          <h1 class="title">Перевірка за віком:</h1>
+          <input type="text" class="minAge input" id="minAge">
+          <input type="text" class="maxAge input" id="maxAge">
+          <button id="apply" class="btn">Застосувати</button>
+        </div>
+        <div class="age__filter container">
+          <h1 class="filter__title title">Фільтр віку:</h1>
+          <button id="older" class="btn">Найстарші</button>
+          <button id="younger" class="btn">Наймолодші</button>
+        </div>
+        <div class="wrap__check-length container">
+          <h1 class="check__title title">Фільтр росту:</h1>
+          <input type="range" id="rangeInp" min="70" max="200">
+          <span id="val">0</span>
+        </div>
+      </header>
+      <main class="wrap__main">
+        <div class="userContainer"></div>
+      </main>
+    </div>
+  </div>
+
+  <script src="user.js"></script>
+  <script type="module" src="main.js"></script>
+</body>
+</html>
